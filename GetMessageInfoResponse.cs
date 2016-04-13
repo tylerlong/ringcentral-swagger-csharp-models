@@ -62,7 +62,7 @@ namespace IO.Swagger.Model
         /// </summary>
         /// <value>SMS and Pager only. Identifier of the conversation the message belongs to</value>
         [DataMember(Name="conversationId", EmitDefaultValue=false)]
-        public int? ConversationId { get; set; }
+        public long? ConversationId { get; set; }
   
         
         /// <summary>
